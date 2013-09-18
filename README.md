@@ -12,10 +12,11 @@ You are free to download/use/modify these codes for __non-commercial__ uses
 2. run the corresponding binary file  
 
 ###TODO:
-> 1. `bstree.cpp`
-> 2. `hashtable.cpp`
-> 3. `trie.cpp`  
-> 4. `AVL.cpp`  
+> 1. `bstree.h`
+> 2. `hashtable.h`
+> 3. `trie.h`  
+> 4. `AVL.h`  
+> 5. `heap.h`   
 
 
 +           Git: fanfank
