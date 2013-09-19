@@ -5,7 +5,7 @@ Data Structures
 You are free to download/use/modify these codes for __non-commercial__ uses
 
 ###Contents:  
-1. `list.h`,`stack.h`,`queue.h`   
+1. `list.h`,`stack.h`,`queue.h`,`heap.h`
 
 ###Usage:  
 1. type `make` command
