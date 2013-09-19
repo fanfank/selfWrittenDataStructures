@@ -7,5 +7,10 @@ struct node
     node<T> *next;
     T val;
     node(T v = 0, node<T>* nxt = NULL) : val(v), next(nxt){}
+    ~node()
+    {
+        //if(next != NULL)
+            //delete next;
+    }
 };
 #endif

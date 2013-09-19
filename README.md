@@ -5,7 +5,8 @@ Data Structures
 You are free to download/use/modify these codes for __non-commercial__ uses
 
 ###Contents:  
-1. `list.h`,`stack.h`,`queue.h`,`heap.h`
+1. `list.h`,`stack.h`,`queue.h`,`heap.h`,`hashtable.h`
+2. `main.cpp`   
 
 ###Usage:  
 1. type `make` command
@@ -13,7 +14,7 @@ You are free to download/use/modify these codes for __non-commercial__ uses
 
 ###TODO:
 > 1. `bstree.h`
-> 2. `hashtable.h`
+> 2. ~~`hashtable.h`~~
 > 3. `trie.h`  
 > 4. `AVL.h`  
 > 5. ~~`heap.h`~~   

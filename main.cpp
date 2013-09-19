@@ -1,3 +1,4 @@
+#include "hashtable.h"
 #include "heap.h"
 #include "list.h"
 #include "queue.h"
@@ -5,6 +6,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
+int intarr[10] = {9, 7, 1, 4, 2, 3, 6, 5, 8, 0};
 double array[5] = {2.2, 1.38, 2.89, 1.11, 9.56};
 void pp(){int stop; cin>>stop;}
 int main()
@@ -141,4 +143,54 @@ int main()
     h2.assign(arr2, 5);
     h3 = h2;
     h3.print();
+
+    printf("-------- Testing Hashtable --------\n");
+    Hashtable<int> ht;
+    ht.print();
+
+    for(int i = 0; i < 10; i++)
+    {
+        ht.insert(intarr[i]);
+        ht.print();
+        cout<<"Slots: "<<ht.slotSize()<<" size: "<<ht.size()<<endl;
+    }
+    cout<<endl;
+
+    int *pos = NULL;
+    for(int i = 15; i >= 0; i--)
+    {
+        if(i>9)
+            pos = ht.find(i);
+        else
+            pos = ht.find(intarr[i]);
+        if(pos != NULL)
+            cout<<"Found "<<*pos<<endl;
+        else
+            cout<<"Can't find "<<i<<endl;
+    }
+    cout<<endl;
+
+    ht.print();
+    for(int i = 15; i >= 0; i--)
+    {
+        if(i>9)
+            ht.remove(i);
+        else
+            ht.remove(intarr[i]);
+        cout<<"i="<<i<<" ";
+        cout<<"Slots: "<<ht.slotSize()<<" size: "<<ht.size()<<endl;
+        ht.print();
+    }
+    //ht.print();
+    cout<<endl;
+
+    ht.resize(0);
+    cout<<"Slots: "<<ht.slotSize()<<" size: "<<ht.size()<<endl;
+
+    for(int i = 0; i < 100; i++)
+        ht.insert(i);
+    for(int i = 1000; i < 1100; i++)
+        ht.insert(i);
+    ht.print();
+    cout<<"Slots: "<<ht.slotSize()<<" size: "<<ht.size()<<endl;
 }
