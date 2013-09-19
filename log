@@ -49,4 +49,386 @@ Printing queue: 9.56
 q2.front() = 9.56 q2.back() = 9.56 q2.size() = 1
 Printing queue: 
 -------- Testing Heap --------
+Printing: 1.11 1.38 2.2 2.89 9.56
+Capacity: 5 size: 5
+Printing: 1.11 1.38 2.2 2.89 9.56
+Capacity: 5 size: 4
+Printing: 1.38 2.2 2.89 9.56
+Capacity: 5 size: 3
+Printing: 2.2 2.89 9.56
+Capacity: 5 size: 2
+Printing: 2.89 9.56
+Capacity: 5 size: 1
+Printing: 9.56
 Printing:
+Capacity: 5 size: 0
+Printing: 9.56
+Capacity: 5 size: 1
+Printing: 1.11 9.56
+Capacity: 5 size: 2
+Printing: 1.11 2.89 9.56
+Capacity: 5 size: 3
+Printing: 1.11 1.38 2.89 9.56
+Capacity: 5 size: 4
+Printing: 1.11 1.38 2.2 2.89 9.56
+**** h2 ****: Printing: 1.11 1.38 2.2 2.89 9.56
+Capacity: 5 size: 5
+Printing: 1.11 1.38 2.2 2.89 9.56 10 11 12 13 14
+
+Capacity: 10 size: 10
+Printing: 1.11 1.38 2.2 2.89 9.56 10 11 12 13 14
+
+Capacity: 30 size: 10
+Top: 1.11
+Capacity: 4 size: 0
+Capacity: 5 size: 5
+Printing: 1.11 1.38 2.2 2.89 9.56
+Printing:
+Capacity: 4 size: 0
+Capacity: 4 size: 0
+Capacity: 10 size: 0
+Capacity: 5 size: 5
+Printing: 1.11 1.38 2.2 2.89 9.56
+Printing: -1 0 0 0 1
+-------- Testing Hashtable --------
+Slot 9: 9
+Slots: 10 size: 1
+Slot 7: 7
+Slot 9: 9
+Slots: 10 size: 2
+Slot 1: 1
+Slot 7: 7
+Slot 9: 9
+Slots: 10 size: 3
+Slot 1: 1
+Slot 4: 4
+Slot 7: 7
+Slot 9: 9
+Slots: 10 size: 4
+Slot 1: 1
+Slot 2: 2
+Slot 4: 4
+Slot 7: 7
+Slot 9: 9
+Slots: 10 size: 5
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 7: 7
+Slot 9: 9
+Slots: 10 size: 6
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 6: 6
+Slot 7: 7
+Slot 9: 9
+Slots: 10 size: 7
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 9: 9
+Slots: 20 size: 8
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+Slots: 20 size: 9
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+Slots: 20 size: 10
+
+Can't find 15
+Can't find 14
+Can't find 13
+Can't find 12
+Can't find 11
+Can't find 10
+Found 0
+Found 8
+Found 5
+Found 6
+Found 3
+Found 2
+Found 4
+Found 1
+Found 7
+Found 9
+
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=15 Slots: 20 size: 10
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=14 Slots: 20 size: 10
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=13 Slots: 20 size: 10
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=12 Slots: 20 size: 10
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=11 Slots: 20 size: 10
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=10 Slots: 20 size: 10
+Slot 0: 0
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=9 Slots: 20 size: 9
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 8: 8
+Slot 9: 9
+i=8 Slots: 20 size: 8
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 5: 5
+Slot 6: 6
+Slot 7: 7
+Slot 9: 9
+i=7 Slots: 10 size: 7
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 6: 6
+Slot 7: 7
+Slot 9: 9
+i=6 Slots: 10 size: 6
+Slot 1: 1
+Slot 2: 2
+Slot 3: 3
+Slot 4: 4
+Slot 7: 7
+Slot 9: 9
+i=5 Slots: 10 size: 5
+Slot 1: 1
+Slot 2: 2
+Slot 4: 4
+Slot 7: 7
+Slot 9: 9
+i=4 Slots: 10 size: 4
+Slot 1: 1
+Slot 4: 4
+Slot 7: 7
+Slot 9: 9
+i=3 Slots: 5 size: 3
+Slot 1: 1
+Slot 2: 7
+Slot 4: 9
+i=2 Slots: 5 size: 2
+Slot 2: 7
+Slot 4: 9
+i=1 Slots: 2 size: 1
+Slot 1: 9
+i=0 Slots: 2 size: 0
+
+Slots: 1 size: 0
+Slot 0: 0 1024
+Slot 1: 1 1025
+Slot 2: 2 1026
+Slot 3: 3 1027
+Slot 4: 4 1028
+Slot 5: 5 1029
+Slot 6: 6 1030
+Slot 7: 7 1031
+Slot 8: 8 1032
+Slot 9: 9 1033
+Slot 10: 10 1034
+Slot 11: 11 1035
+Slot 12: 12 1036
+Slot 13: 13 1037
+Slot 14: 14 1038
+Slot 15: 15 1039
+Slot 16: 16 1040
+Slot 17: 17 1041
+Slot 18: 18 1042
+Slot 19: 19 1043
+Slot 20: 20 1044
+Slot 21: 21 1045
+Slot 22: 22 1046
+Slot 23: 23 1047
+Slot 24: 24 1048
+Slot 25: 25 1049
+Slot 26: 26 1050
+Slot 27: 27 1051
+Slot 28: 28 1052
+Slot 29: 29 1053
+Slot 30: 30 1054
+Slot 31: 31 1055
+Slot 32: 32 1056
+Slot 33: 33 1057
+Slot 34: 34 1058
+Slot 35: 35 1059
+Slot 36: 36 1060
+Slot 37: 37 1061
+Slot 38: 38 1062
+Slot 39: 39 1063
+Slot 40: 40 1064
+Slot 41: 41 1065
+Slot 42: 42 1066
+Slot 43: 43 1067
+Slot 44: 44 1068
+Slot 45: 45 1069
+Slot 46: 46 1070
+Slot 47: 47 1071
+Slot 48: 48 1072
+Slot 49: 49 1073
+Slot 50: 50 1074
+Slot 51: 51 1075
+Slot 52: 52 1076
+Slot 53: 53 1077
+Slot 54: 54 1078
+Slot 55: 55 1079
+Slot 56: 56 1080
+Slot 57: 57 1081
+Slot 58: 58 1082
+Slot 59: 59 1083
+Slot 60: 60 1084
+Slot 61: 61 1085
+Slot 62: 62 1086
+Slot 63: 63 1087
+Slot 64: 64 1088
+Slot 65: 65 1089
+Slot 66: 66 1090
+Slot 67: 67 1091
+Slot 68: 1092 68
+Slot 69: 1093 69
+Slot 70: 1094 70
+Slot 71: 1095 71
+Slot 72: 1096 72
+Slot 73: 1097 73
+Slot 74: 1098 74
+Slot 75: 1099 75
+Slot 76: 76
+Slot 77: 77
+Slot 78: 78
+Slot 79: 79
+Slot 80: 80
+Slot 81: 81
+Slot 82: 82
+Slot 83: 83
+Slot 84: 84
+Slot 85: 85
+Slot 86: 86
+Slot 87: 87
+Slot 88: 88
+Slot 89: 89
+Slot 90: 90
+Slot 91: 91
+Slot 92: 92
+Slot 93: 93
+Slot 94: 94
+Slot 95: 95
+Slot 96: 96
+Slot 97: 97
+Slot 98: 98
+Slot 99: 99
+Slot 488: 1000
+Slot 489: 1001
+Slot 490: 1002
+Slot 491: 1003
+Slot 492: 1004
+Slot 493: 1005
+Slot 494: 1006
+Slot 495: 1007
+Slot 496: 1008
+Slot 497: 1009
+Slot 498: 1010
+Slot 499: 1011
+Slot 500: 1012
+Slot 501: 1013
+Slot 502: 1014
+Slot 503: 1015
+Slot 504: 1016
+Slot 505: 1017
+Slot 506: 1018
+Slot 507: 1019
+Slot 508: 1020
+Slot 509: 1021
+Slot 510: 1022
+Slot 511: 1023
+Slots: 512 size: 200
