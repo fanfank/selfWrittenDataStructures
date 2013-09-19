@@ -16,7 +16,7 @@ You are free to download/use/modify these codes for __non-commercial__ uses
 > 2. `hashtable.h`
 > 3. `trie.h`  
 > 4. `AVL.h`  
-> 5. `heap.h`   
+> 5. ~~`heap.h`~~   
 
 
 +           Git: fanfank
@@ -27,4 +27,4 @@ You are free to download/use/modify these codes for __non-commercial__ uses
     &copy; 2013 Reetsee.Xu
 </div>
 
-*README.md Last update: 20130914*
+*README.md Last update: 20130919*

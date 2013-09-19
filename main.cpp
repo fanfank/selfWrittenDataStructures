@@ -1,3 +1,4 @@
+#include "heap.h"
 #include "list.h"
 #include "queue.h"
 #include "stack.h"
@@ -5,6 +6,7 @@
 #include <stdio.h>
 using namespace std;
 double array[5] = {2.2, 1.38, 2.89, 1.11, 9.56};
+void pp(){int stop; cin>>stop;}
 int main()
 {
     printf("-------- Testing List --------\n");
@@ -77,4 +79,66 @@ int main()
     Queue<double> q3(&q);
     q3.clear();
     q3.print();
+
+    printf("-------- Testing Heap --------\n");
+    Heap<double> h(array, 5);
+    h.print();
+    while(h.size())
+    {
+        cout<<"Capacity: "<<h.capacity()<<" size: "<<h.size()<<endl;
+        h.print();
+        h.pop();
+    }
+    h.print();
+    //pp();
+    for(int i = 4; i >= 0; i--)
+    {
+        cout<<"Capacity: "<<h.capacity()<<" size: "<<h.size()<<endl;
+        h.push(array[i]);
+        h.print();
+    }
+
+    Heap<double> h2(&h);
+    cout<<"**** h2 ****: ";
+    h2.print();
+    cout<<"Capacity: "<<h2.capacity()<<" size: "<<h2.size()<<endl;
+    for(int i = 10; i < 15; i++)
+        h2.push(double(i));
+    h2.print();
+    
+    cout<<endl;
+    h2.resize(5); 
+    cout<<"Capacity: "<<h2.capacity()<<" size: "<<h2.size()<<endl;
+    h2.print();
+
+    cout<<endl;
+    h2.resize(30);
+    cout<<"Capacity: "<<h2.capacity()<<" size: "<<h2.size()<<endl;
+    cout<<"Top: "<<h2.top()<<endl;
+
+    h2.clear();
+    cout<<"Capacity: "<<h2.capacity()<<" size: "<<h2.size()<<endl;
+    h2.assign(array, 5);
+    cout<<"Capacity: "<<h2.capacity()<<" size: "<<h2.size()<<endl;
+    h2.print();
+
+    Heap<double> h3;
+    h3.print();
+    cout<<"Capacity: "<<h3.capacity()<<" size: "<<h3.size()<<endl;
+    h3.pop();
+    h3.pop();
+    h3.pop();
+    h3.pop();
+    cout<<"Capacity: "<<h3.capacity()<<" size: "<<h3.size()<<endl;
+    h3.resize(10);
+    cout<<"Capacity: "<<h3.capacity()<<" size: "<<h3.size()<<endl;
+    h3.assign(array, 5);
+    cout<<"Capacity: "<<h3.capacity()<<" size: "<<h3.size()<<endl;
+    h3.print();
+
+    double arr2[] = {0,0,1,0,-1};
+
+    h2.assign(arr2, 5);
+    h3 = h2;
+    h3.print();
 }

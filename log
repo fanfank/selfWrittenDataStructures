@@ -1,0 +1,52 @@
+-------- Testing List --------
+Printing list: 
+Printing list: 2.2 
+Printing list: 2.2 1.38 
+Printing list: 2.2 1.38 2.89 
+Printing list: 2.2 1.38 2.89 1.11 
+Printing list: 2.2 1.38 2.89 1.11 9.56 
+Printing list: 2.2 1.38 2.89 1.11 9.56 
+Printing list: 1.38 2.89 1.11 
+l2[2].val = 1.11
+l2[0].val = 1.38
+l2.front() = 1.38
+Printing list: 9.56 1.11 2.89 1.38 2.2 1.38 2.89 1.11 
+-------- Testing Stack --------
+Printing stack: 
+Printing stack: 2.2 
+Printing stack: 1.38 2.2 
+Printing stack: 2.89 1.38 2.2 
+Printing stack: 1.11 2.89 1.38 2.2 
+Printing stack: 9.56 1.11 2.89 1.38 2.2 
+Printing stack: 9.56 1.11 2.89 1.38 2.2 
+sta2.top() = 9.56 size: 5 ====> pop
+sta2.top() = 1.11 size: 4 ====> pop
+sta2.top() = 2.89 size: 3 ====> pop
+sta2.top() = 1.38 size: 2 ====> pop
+sta2.top() = 2.2 size: 1 ====> pop
+-------- Testing Queue --------
+Printing queue: 
+Printing queue: 2.2 
+Printing queue: 2.2 1.38 
+Printing queue: 2.2 1.38 2.89 
+Printing queue: 2.2 1.38 2.89 1.11 
+Printing queue: 2.2 1.38 2.89 1.11 9.56 
+Printing queue: 2.2 1.38 2.89 1.11 9.56 
+
+Printing queue: 2.2 1.38 2.89 1.11 9.56 
+q2.front() = 2.2 q2.back() = 9.56 q2.size() = 5
+
+Printing queue: 1.38 2.89 1.11 9.56 
+q2.front() = 1.38 q2.back() = 9.56 q2.size() = 4
+
+Printing queue: 2.89 1.11 9.56 
+q2.front() = 2.89 q2.back() = 9.56 q2.size() = 3
+
+Printing queue: 1.11 9.56 
+q2.front() = 1.11 q2.back() = 9.56 q2.size() = 2
+
+Printing queue: 9.56 
+q2.front() = 9.56 q2.back() = 9.56 q2.size() = 1
+Printing queue: 
+-------- Testing Heap --------
+Printing:
